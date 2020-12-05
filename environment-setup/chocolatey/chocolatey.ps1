@@ -8,3 +8,5 @@ Write-Host "Enabling global confirmation for Chocolatey..." -ForegroundColor Cya
 
 choco feature enable -n allowGlobalConfirmation
 choco feature enable -n exitOnRebootDetected
+choco feature enable -n usePackageExitCodes
+choco feature enable -n failOnStandardError
