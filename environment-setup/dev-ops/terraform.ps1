@@ -1,1 +1,1 @@
-choco install terrafor
+choco install terraform
